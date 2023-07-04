@@ -21,7 +21,7 @@ def binary(k , arr , great , small):
         return -1 #return if value doesn't exist in the array
         
 array=[1,5,24,10,13,9,20,34,2,3] #Array with values
-key=9 #key value that we are looking for
+key=int(input("Search Value: ")) #key value that we are looking for
 array.sort() #in case if array isn't sorted
 
 result=binary(key, array, len(array)-1, 0) #calling function and saving the return values
